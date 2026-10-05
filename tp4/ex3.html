@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex3</title>
+</head>
+<body>
+    <form action="inscription.php" method="post">
+        <label for="">Numéro de CIN : </label>
+        <input type="number" name="cin" id="cin" max="8"><br>
+        <label for="">Nom & Prénom : </label>
+        <input type="text" name="np" id="np" max="40"><br>
+        <label for="">Date & heure de naissance : </label>
+        <input type="datetime-local" name="dhn" id="dhn"><br>
+        <label for="">La moyenne de l'année dernière : </label>
+        <input type="number" name="moy" id="moy" max="20" step="0.01"><br>
+        <label for="">Date d'inscription : </label>
+        <input type="date" name="insc" id="insc"><br>
+        <label for="">Parcours : </label>
+        <select>
+            <optgroup label="TC">
+                <option value="">1er</option>
+                <option value="">2ème</option>
+                <option value="">3ème</option>
+            </optgroup>
+            <optgroup label="SEM">
+                <option value="">1er</option>
+                <option value="">2ème</option>
+                <option value="">3ème</option>
+            </optgroup>
+            <optgroup label="DSI">
+                <option value="">1er</option>
+                <option value="">2ème</option>
+                <option value="">3ème</option>
+            </optgroup>
+            <optgroup label="RSI">
+                <option value="">1er</option>
+                <option value="">2ème</option>
+                <option value="">3ème</option>
+            </optgroup>
+        </select><br>
+    </form>
+</body>
+</html>

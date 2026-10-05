@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex4</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Votre identité</legend>
+                    <ol>
+                        <li>
+                            <label for="">Nom : </label>
+                            <input type="text" name="nom" id="nom" placeholder="Prénom et nom"></li>
+                        <li>
+                            <label for="">E-Mail : </label>
+                            <input type="email" name="email" id="email" placeholder="exemple@domaine.com"></li>
+                        <li>
+                            <label for="">Téléphone : </label>
+                            <input type="number" name="tel" id="tel" max="8" placeholder="par exple : +21629326536"></li>    
+                    </ol>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Adresse de livraison</legend>
+                    <ol>
+                        <li>
+                            <label for="">Adresse : </label>
+                            <textarea name="adr" id="adr"></textarea></li>
+                        <li>
+                            <label for="">Code postal : </label>
+                            <input type="number" name="cp" id="cp" max="4"></li>
+                        <li>
+                            <label for="">Pays : </label>
+                            <input type="text" name="pays" id="pays"></li>
+                    </ol>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Informations CB</legend>
+                    <ol>
+                        <li>
+                            <fieldset>
+                                <legend>Type de carte bancaire</legend>
+                                <ol>
+                                    <li><input type="radio" name="visa" id="visa">VISA</li>
+                                    <li><input type="radio" name="amex" id="amex">AMEX</li>
+                                    <li><input type="radio" name="mc" id="mc">MasterCard</li>
+                                </ol>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <label for="">N° de carte : </label>
+                            <input type="number" name="ncard" id="ncard">
+                        </li>
+                        <li>
+                            <label for="">Code Sécurité : </label>
+                            <input type="password" name="cs" id="cs">
+                        </li>
+                        <li>
+                            <label for="">Nom du porteur : </label>
+                            <input type="text" name="nport" id="nport" placeholder="Meme nom que sur la carte">
+                        </li>
+                    </ol>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" name="" id="" value="J'achète !"></td>
+        </tr>
+    </table>
+</body>
+</html>
